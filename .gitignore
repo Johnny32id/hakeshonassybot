@@ -69,6 +69,7 @@ typings/
 
 # dotenv environment variables file
 .env*
+!.env.test
 .env.sample*
 
 # parcel-bundler cache (https://parceljs.org/)
@@ -197,3 +198,6 @@ modules.xml
 # End of https://www.gitignore.io/api/node,webstorm+all
 
 prod/data
+
+public/
+/docker_password.txt
